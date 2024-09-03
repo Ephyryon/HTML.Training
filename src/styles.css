@@ -1,0 +1,28 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+.center-align {
+    text-align: center;
+}
+.collapsible {
+    background-color: #eee;
+    border-color: black;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+     border: 1px solid black;
+    outline: none;
+    font-size: 15px;
+} 
+.active, .collapsible:hover {
+    background-color: #ccc;
+}
+.content {
+    max-height: 0;
+    padding: 0 18px;
+    background-color: white;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
