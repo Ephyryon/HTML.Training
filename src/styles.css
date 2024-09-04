@@ -5,9 +5,14 @@
 .center-align {
     text-align: center;
 }
+.white-text {
+    color: #eee;
+}
 .text-container {
     max-width: 500px;
     margin: 0 auto;
+}
+.text-size-up {
     font-size: 25px;
 }
 .space {
@@ -30,14 +35,13 @@
 .content {
     max-height: 0;
     padding: 0 18px;
-    background-color: white;
+    background-color: transparent;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
 html {
     overflow-y: scroll;
 }
-
 .text {
     position: absolute;
     top: 50%;
