@@ -1,9 +1,16 @@
 .container {
-    text-align: center;
-    margin-top: 50px;
+    position: relative;
+    width: 50%;
 }
 .center-align {
     text-align: center;
+}
+.text-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.space {
+    margin-bottom: 25px;
 }
 .collapsible {
     background-color: #eee;
@@ -25,4 +32,22 @@
     background-color: white;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+}
+html {
+    overflow-y: scroll;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000;
+}
+.image {
+    width: 100%;
+    height: auto;
 }
