@@ -3,9 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Her har jeg lagt til lenke til css kildene så programmet forstår hvordan den skal fungere.-->
   <link href="./src/output.css" rel="Main">
   <link href="./src/styles.css" rel="stylesheet">
   <style>
+    /*Her har jeg lagt til et bilde i bakgrunnen.*/
     body {
       background-image: url('imgs/Verdant\ moon.jpg');
       background-size: cover;
@@ -14,11 +16,15 @@
   </style>
 </head>
 <body>
+  <!--Her har jeg satt alle lenkene og texten innenfor denne diven for at allt skall holde seg i midten.-->
   <div class="center-align">
     <h1>Mine favorit spill</h1>
+    <!--Her har jeg brukt classen jeg har lagt i styles.css og koden i script.js for å lage en knapp som kan åpnes og lukkes for å hjemme eller vise tekst bassert på om den er aktivert eller ikke.-->
     <button class="collapsible">Katalog</button>
+    <!--Content classen gjør at teksten er animert når knappen blir aktivert. Altså så ser det ut som den rules ut og ikke at teksten bare dukker opp.-->
       <div class="content">
         <h1>En katalog over spillene</h1>
+        <!--Her har jeg lagt til text-container og text-size-up for at teksten skal holde seg til midten og for at teksten skal være lettere å lese.-->
         <ol class="text-container text-size-up">
           <li><a href="./foldy/LoreGame.html">Lore Game</a></li>
           <li><a href="./foldy/DwarfFortress.html">Dwarf Fortress</a></li>
@@ -27,7 +33,7 @@
         </ol>
       </div>
   </div>
-
+  <!--Denne linjen lar index lese scriptene i script.js som gjør at f.eks knappen fungerer.-->
   <script src="./src/script.js"></script>
 </body>
 </html>
