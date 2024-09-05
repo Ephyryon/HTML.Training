@@ -21,7 +21,7 @@
 .collapsible {
     background-color: transparent;
     border-color: black;
-    color: #444;
+    color: #eee;
     cursor: pointer;
     padding: 18px;
     width: 10%;
@@ -31,7 +31,7 @@
     border-radius: 12px;
 } /*Dette er hoved classen for knappene mine, den lar tekst bli hjemt inni knappen til knappen blir aktivert og åpnet.*/
 .active, .collapsible:hover {
-    background-color: #ccc;
+    background-color: black;
 }
 .content {
     max-height: 0;
